@@ -1,0 +1,16 @@
+{
+  "name": "band",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node app.js",
+    "build-css": "node-sass --include-path scss scss/style.scss  public/css/main.css"
+  },
+  "dependencies": {
+    "express": "latest",
+    "bootstrap-sass": "latest",
+    "eslint": "latest",
+    "node-sass": "~4.6.0",
+    "request": "<=2.81.0",
+    "nodemon": "~1.12.1"
+  }
+}
