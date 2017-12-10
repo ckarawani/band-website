@@ -6,11 +6,13 @@
     "build-css": "node-sass --include-path scss scss/style.scss  public/css/main.css"
   },
   "dependencies": {
-    "express": "latest",
-    "bootstrap-sass": "latest",
+    "bootstrap": "^4.0.0-beta.2",
     "eslint": "latest",
+    "express": "latest",
+    "jquery": "^3.2.1",
     "node-sass": "~4.6.0",
-    "request": "<=2.81.0",
-    "nodemon": "~1.12.1"
+    "nodemon": "~1.12.1",
+    "popper.js": "^1.12.9",
+    "request": "<=2.81.0"
   }
 }
